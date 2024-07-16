@@ -32,3 +32,11 @@
     width: 200px;
     height: 300px;
 }
+
+
+.aboutSectionHeader {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding-top: 100pt;
+}
