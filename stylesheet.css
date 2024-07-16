@@ -1,14 +1,18 @@
-.mainHeader {
-    padding: 10px 16px;
+.mainheader {
     background-color: aquamarine;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;  
 }
 
 .homeIntroHeader {
     display: inline-block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
+    padding-top: 100pt;
 }
 
 .homepageIntro {
@@ -28,15 +32,3 @@
     width: 200px;
     height: 300px;
 }
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
-  }
